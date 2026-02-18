@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Navbar from './components/Navbar'
+import WhatsAppButton from './components/WhatsAppButton'
 import Hero from './sections/Hero'
 import Servicios from './sections/Servicios'
 import Stats from './sections/Stats'
@@ -19,6 +20,7 @@ function App() {
       <Nosotros />
       <Citas />
       <Footer />
+      <WhatsAppButton />
     </div>
   )
 }
