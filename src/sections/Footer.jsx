@@ -14,25 +14,69 @@ function Footer() {
                     </p>
                 </div>
 
-                {/* Links */}
+                {/* Redes Sociales */}
                 <div>
-                    <h4 className="font-bold text-lg mb-4 text-emerald-400">Enlaces</h4>
-                    <ul className="flex flex-col gap-2 text-gray-400">
-                        <li className="hover:text-white cursor-pointer transition-colors">Inicio</li>
-                        <li className="hover:text-white cursor-pointer transition-colors">Servicios</li>
-                        <li className="hover:text-white cursor-pointer transition-colors">Nosotros</li>
-                        <li className="hover:text-white cursor-pointer transition-colors">Agendar Cita</li>
-                    </ul>
+                    <h4 className="font-bold text-lg mb-4 text-emerald-400">Síguenos</h4>
+                    <div className="flex flex-col gap-3">
+                        <a
+                            href="https://facebook.com"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center gap-3 text-gray-400 hover:text-white transition-colors cursor-pointer"
+                        >
+                            <span className="text-2xl">📘</span>
+                            <span>Facebook</span>
+                        </a>
+                        <a
+                            href="https://instagram.com"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center gap-3 text-gray-400 hover:text-white transition-colors cursor-pointer"
+                        >
+                            <span className="text-2xl">📷</span>
+                            <span>Instagram</span>
+                        </a>
+                        <a
+                            href="https://wa.me/593991234567"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center gap-3 text-gray-400 hover:text-white transition-colors cursor-pointer"
+                        >
+                            <span className="text-2xl">💬</span>
+                            <span>WhatsApp</span>
+                        </a>
+                        <a
+                            href="https://tiktok.com"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center gap-3 text-gray-400 hover:text-white transition-colors cursor-pointer"
+                        >
+                            <span className="text-2xl">🎵</span>
+                            <span>TikTok</span>
+                        </a>
+                    </div>
                 </div>
 
                 {/* Contacto */}
                 <div>
                     <h4 className="font-bold text-lg mb-4 text-emerald-400">Contacto</h4>
                     <ul className="flex flex-col gap-2 text-gray-400">
-                        <li>📍 Quito, Ecuador</li>
-                        <li>📞 +593 99 123 4567</li>
-                        <li>✉️ contacto@patitasvet.com</li>
-                        <li>🕐 Lun - Sab: 8am - 8pm</li>
+                        <li className="flex items-center gap-2">
+                            <span>📍</span>
+                            <span>Quito, Ecuador</span>
+                        </li>
+                        <li className="flex items-center gap-2">
+                            <span>📞</span>
+                            <span>+593 99 123 4567</span>
+                        </li>
+                        <li className="flex items-center gap-2">
+                            <span>✉️</span>
+                            <span>contacto@patitasvet.com</span>
+                        </li>
+                        <li className="flex items-center gap-2">
+                            <span>🕐</span>
+                            <span>Lun - Sab: 8am - 8pm</span>
+                        </li>
                     </ul>
                 </div>
 
