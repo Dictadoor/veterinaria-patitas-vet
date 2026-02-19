@@ -63,7 +63,7 @@ function Footer() {
                     <ul className="flex flex-col gap-2 text-gray-400">
                         <li className="flex items-center gap-2">
                             <span>📍</span>
-                            <span>Quito, Ecuador</span>
+                            <span>La Concordia, Ecuador</span>
                         </li>
                         <li className="flex items-center gap-2">
                             <span>📞</span>
@@ -75,7 +75,7 @@ function Footer() {
                         </li>
                         <li className="flex items-center gap-2">
                             <span>🕐</span>
-                            <span>Lun - Sab: 8am - 8pm</span>
+                            <span>Lun - Sab: 8am - 5:30pm</span>
                         </li>
                     </ul>
                 </div>

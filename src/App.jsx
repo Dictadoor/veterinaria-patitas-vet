@@ -5,6 +5,7 @@ import Hero from './sections/Hero'
 import Servicios from './sections/Servicios'
 import Stats from './sections/Stats'
 import Nosotros from './sections/Nosotros'
+import Ubicacion from './sections/Ubicacion'
 import Citas from './sections/Citas'
 import Footer from './sections/Footer'
 
@@ -18,6 +19,7 @@ function App() {
       <Servicios />
       <Stats />
       <Nosotros />
+      <Ubicacion />
       <Citas />
       <Footer />
       <WhatsAppButton />
